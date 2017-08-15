@@ -34,5 +34,5 @@ Serial.print("Kayit basarili");
 void loop() {
   // put your main code here, to run repeatedly:
 
-}
+} 
 
