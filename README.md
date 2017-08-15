@@ -26,17 +26,15 @@ void setup()
     Serial.print(str[i-1]);
   
   }
-  
+ 
+}
+
+void loop()
+{
   for(int i = 1; i<c+1;i++)
   {
     char okunan = EEPROM.read(i);
     Serial.print(okunan);
   }
-  
-}
-
-void loop() {
-
-
 } 
 
