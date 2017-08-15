@@ -3,8 +3,8 @@ This code used for wifi name and password.
 
 #include "EEPROM.h";
 
-void setup() {
-  // put your setup code here, to run once:
+void setup() 
+{
     Serial.begin(9600);
 
     int a=21;
